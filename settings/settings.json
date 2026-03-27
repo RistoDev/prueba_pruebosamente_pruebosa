@@ -1,0 +1,41 @@
+{
+  "CAMERA_INDEX": {
+    "value": 2,
+    "type": "int",
+    "min": 0,
+    "max": 10
+  },
+  "CONFIDENCE_THRESHOLD": {
+    "value": 0.5,
+    "type": "float",
+    "min": 0,
+    "max": 1,
+    "step": 0.05
+  },
+  "CLASSES_NAME": {
+    "value": ["Metal", "Vidrio", "Plástico", "Cartón", "Médico"],
+    "type": "list"
+  },
+  "DATASET_DIR_NAME": {
+    "CUT": {
+      "value": "dataset/cut",
+      "type": "path"
+    },
+    "FULL": {
+      "value": "dataset/full",
+      "type": "path"
+    }
+  },
+  "SECONDS_TO_SAVE_PICTURE": {
+    "CUT": {
+      "value": 5,
+      "type": "int",
+      "min": 1
+    },
+    "FULL": {
+      "value": 5,
+      "type": "int",
+      "min": 1
+    }
+  }
+}
